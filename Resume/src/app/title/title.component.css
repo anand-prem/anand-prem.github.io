@@ -1,0 +1,11 @@
+#nameandaddress {
+    left: 10px;
+    background-color: red;
+    overflow: hidden;
+}
+
+#resumeimage {
+    right: 10px;
+    background-color: pink;
+    overflow: hidden;
+}
