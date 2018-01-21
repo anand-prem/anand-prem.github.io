@@ -20,6 +20,15 @@ a:link img, a:visited img {border-style: none}
        font-weight: bold; 
 }
 
+.sectionBox {
+  border: solid 1px white; 
+  background:white;
+  padding: 0 0.5em 0 0.5em;
+  display:table;
+  font-size:20pt;
+  font-weight: bold;
+}
+
 .text { 
 	text-align: left; 
 	padding-left: 20pt
