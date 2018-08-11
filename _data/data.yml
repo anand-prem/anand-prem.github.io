@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Anand Prem
+    tagline: Senior Backend Software Developer
+    avatar: profile.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: anandprem333@gmail.com
+    phone: +91 9400929404
+    website: anandprem333.github.io #do not add http://
+    linkedin: in.linkedin.com/in/anandprem333
+    github: anandprem333
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+
+    languages:
+      - idiom: English
+        level: Professional
+        
+    interests:
+      - item: Travelling
+        link:
+
+      - item: Movies
+        link:
+
+      - item: Coding
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Backend developer by profession and iOS developer by passion.
+      I got chances to take full responsibility for multiple areas of a
+      Japan-based e-commerce platform which have millions of users worldwide.
+      I got the chance to architect, develop and support two major platforms
+      consists of Coupons section and Wishlist section for Canada and Europe
+      regions. I am always curious enough to learn new technologies. Love to
+      learn new things in coding. Always love to take risks and try to update
+      my work with latest tech stacks.
+
+education:
+    - degree: BTech in Computer Science and Engineering
+      university: Federal Institute of Science And Technology
+      time: 2011 - 2015
+      details: |
+
+experiences:
+    - role: Senior Backend Developer
+      time: 2015 - Present
+      company: QBurst Technologies, Cochin
+      details: |
+
+projects:
+    title: Projects
+    intro: >
+
+    assignments:
+      - title: Coupons Platform
+        link: "#hook"
+        tagline: "This Node.js app consists of coupons needed for a Japan-based retail holding company(I couldn't mention the details of the company in resume due to NDA) for their store and e-commerce sites. This handles creation, assigning and consumption of coupons for Canada and Europe regions."
+
+      - title: Wishlist Platform
+        link: "#"
+        tagline: "This Node.js app handles the wishlist section of users from Canada and Japan regions for the Japan-based retail holder(I couldn't mention the details of the company in resume due to NDA).  This platform handles adding, removing and analytics of wishlist for the users."
+
+      - title: Catalogue Platform
+        link: "#"
+        tagline: "This Node.js application handles the catalogue's backend for a Japan-based retail holder(I couldn't mention the details of the company in resume due to NDA). This app performs the periodic downloads of GB sized data from various other platforms and manipulates the data for the catalogue format. Memory-efficiency and synchronization were the key part for this app."
+
+      - title: Visho (Side Project)
+        link: "#"
+        tagline: "An iOS app that used to sell and buy items where the product's video is used instead of images."
+
+      - title: QTracker (React website)
+        link: "#"
+        tagline: "An in-house app that used to track the company assets, employees attendance etc."
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Node.js
+        level: 100%
+
+      - name: DBMS
+        level: 80%
+
+      - name: React.js
+        level: 80%
+      
+      - name: AWS
+        level: 80%
+
+      - name: Docker
+        level: 70%
+
+      - name: Swift
+        level: 80%
+
+      - name: Go
+        level: 50%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
