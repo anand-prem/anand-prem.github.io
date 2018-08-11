@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Anand Prem
     tagline: Senior Backend Software Developer
-    avatar: profiile.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar:  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: anandprem333@gmail.com
