@@ -41,13 +41,13 @@ career-profile:
     title: Career Profile
     summary: |
       Backend developer by profession and iOS developer by passion.
-      I got chances to take full responsibility for multiple areas of a
-      Japan-based e-commerce platform which have millions of users worldwide.
-      I got the chance to architect, develop and support two major platforms
-      consists of Coupons section and Wishlist section for Canada and Europe
-      regions. I am always curious enough to learn new technologies. Love to
-      learn new things in coding. Always love to take risks and try to update
-      my work with latest tech stacks.
+      I got chances to take full responsibility for multiple domains of
+      a Japan-based e-commerce platform which have millions of users worldwide.
+      I got the chance to develop and support two major platforms consists of
+      Coupons section and Wishlist section for Canada and Europe regions
+      including micro-services architecture designing. I am always curious
+      enough to learn new technologies. Love to learn new things in coding.
+      Always love to take risks and try to update my work with latest tech stacks.
 
 education:
     - degree: BTech in Computer Science and Engineering
