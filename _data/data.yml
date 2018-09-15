@@ -113,7 +113,7 @@ skills:
       - name: Node.js
         level: 100%
 
-      - name: DBMS
+      - name: Postgresql, Redis, MongoDB, DynamoDB
         level: 80%
 
       - name: React.js
