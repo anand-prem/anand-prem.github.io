@@ -41,13 +41,13 @@ career-profile:
     title: Career Profile
     summary: |
       Backend developer by profession and iOS developer by passion.
-      I got chances to take full responsibility for multiple domains of
-      a Japan-based e-commerce platform which have millions of users worldwide.
-      I got the chance to develop and support two major platforms consists of
-      Coupons section and Wishlist section for Canada and Europe regions
-      including micro-services architecture designing. I am always curious
-      enough to learn new technologies. Love to learn new things in coding.
-      Always love to take risks and try to update my work with latest tech stacks.
+      I got chances to take full responsibility of two main platforms
+      for globally- available e-commerce systems which drive multi-billion
+      dollar annual e-commerce sales. I got the chance to develop and support
+      two major platforms consists of Coupons section and Wishlist section for
+      Canada and Europe regions including micro-services architecture designing.
+      I am always curious enough to learn new technologies. Love to learn new things
+      in coding. Always love to take risks and try to update my work with latest tech stacks.
 
 education:
     - degree: BTech in Computer Science and Engineering
@@ -66,13 +66,21 @@ projects:
     intro: >
 
     assignments:
+    - title: Wishlist Platform
+        link: "#"
+        tagline: "Wishlist platform for globally-available
+          e-commerce systems which drive multi-billion dollar
+          annual e-commerce sales. This Node.js/TypeScript app
+          handles the wishlist section of users from Canada and
+          Japan regions. This platform handles adding, removing
+          and analytics of wishlist data for the users.
+          * Performed complete platform re-architecture with Domain Driven Design, CQRS and Onion architecture concepts.
+          * Performed complete platform re-write to support single codebase for all regions across globe.
+          * Maintenance and support for existing wishlist platform for Japan and Canada regions"
+
       - title: Coupons Platform
         link: "#hook"
         tagline: "This Node.js app consists of coupons needed for a Japan-based retail holding company(I couldn't mention the details of the company in resume due to NDA) for their store and e-commerce sites. This handles creation, assigning and consumption of coupons for Canada and Europe regions."
-
-      - title: Wishlist Platform
-        link: "#"
-        tagline: "This Node.js app handles the wishlist section of users from Canada and Japan regions for the Japan-based retail holder(I couldn't mention the details of the company in resume due to NDA).  This platform handles adding, removing and analytics of wishlist for the users."
 
       - title: Catalogue Platform
         link: "#"
