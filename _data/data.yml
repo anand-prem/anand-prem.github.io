@@ -129,7 +129,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Node.js
+      - name: Node.js, TypeScript
         level: 100%
 
       - name: Postgresql, Redis, MongoDB, DynamoDB
@@ -141,7 +141,7 @@ skills:
       - name: AWS
         level: 80%
 
-      - name: Docker
+      - name: Docker, Elastic-Stack
         level: 70%
 
       - name: Swift
