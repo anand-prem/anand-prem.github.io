@@ -68,8 +68,7 @@ projects:
     assignments:
       - title: Wishlist Platform
         link: "#"
-        tagline: >
-          "Wishlist platform for globally-available e-commerce
+        tagline: "Wishlist platform for globally-available e-commerce
           systems which drive multi-billion dollar annual e-commerce sales.
           This Node.js/TypeScript app handles the wishlist section of users
           from Canada and Japan regions. This platform handles adding, removing
@@ -80,7 +79,7 @@ projects:
 
       - title: Coupons Platform
         link: "#hook"
-        tagline: "Coupons platform for globally-available e-commerce
+        tagline: "<b></b>Coupons platform for globally-available e-commerce
         systems which drive multi-billion dollar annual
         e-commerce sales. This NodeJS app handles creation,
         assigning and consumption of coupons.<br>
@@ -89,7 +88,7 @@ projects:
 
       - title: Catalogue Platform
         link: "#"
-        tagline: "Backend of Catalogue for globally-available
+        tagline: "<b></b>Backend of Catalogue for globally-available
         e-commerce systems which drive multi-billion dollar
         annual e-commerce sales. This Node.js application
         performs the periodic downloads of GB sized data
@@ -100,7 +99,7 @@ projects:
 
       - title: Visho (Side Project)
         link: "#"
-        tagline: "An iOS app that used to sell and buy items where the product's video is used instead of images."
+        tagline: "<b></b>An iOS app that used to sell and buy items where the product's video is used instead of images."
 
       - title: QTracker (React website)
         link: "#"
