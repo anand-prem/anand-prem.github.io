@@ -72,7 +72,7 @@ projects:
         systems which drive multi-billion dollar annual e-commerce sales.
         This Node.js/TypeScript app handles the wishlist section of users
         from Canada and Japan regions. This platform handles adding, removing
-        and analytics of wishlist data for the users.\n
+        and analytics of wishlist data for the users..\n
         * Performed complete platform re-architecture with Domain Driven Design, CQRS and Onion architecture concepts.
         * Performed complete platform re-write to support single codebase for all regions across globe.
         * Maintenance and support for existing wishlist platform for Japan and Canada regions"
