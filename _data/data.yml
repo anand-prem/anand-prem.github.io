@@ -73,18 +73,30 @@ projects:
           systems which drive multi-billion dollar annual e-commerce sales.
           This Node.js/TypeScript app handles the wishlist section of users
           from Canada and Japan regions. This platform handles adding, removing
-          and analytics of wishlist data for the users..<br>
-          * Performed complete platform re-architecture with Domain Driven Design, CQRS and Onion architecture concepts.<br>
+          and analytics of wishlist data for the users.<br>
+          <b>* Performed complete platform re-architecture with Domain Driven Design, CQRS and Onion architecture concepts.<b/><br>
           * Performed complete platform re-write to support single codebase for all regions across globe.<br>
-          * Maintenance and support for existing wishlist platform for Japan and Canada regions"
+          * Maintenance and support for existing wishlist platform for Japan and Canada regions</b>"
 
       - title: Coupons Platform
         link: "#hook"
-        tagline: "This Node.js app consists of coupons needed for a Japan-based retail holding company(I couldn't mention the details of the company in resume due to NDA) for their store and e-commerce sites. This handles creation, assigning and consumption of coupons for Canada and Europe regions."
+        tagline: "Coupons platform for globally-available e-commerce
+        systems which drive multi-billion dollar annual
+        e-commerce sales. This NodeJS app handles creation,
+        assigning and consumption of coupons.<br>
+        <b>* Performed platform expansion to Europe region with multiple currency support.<br>
+        * Maintenance and support for existing Coupons platform for Japan and Canada regions.</b>"
 
       - title: Catalogue Platform
         link: "#"
-        tagline: "This Node.js application handles the catalogue's backend for a Japan-based retail holder(I couldn't mention the details of the company in resume due to NDA). This app performs the periodic downloads of GB sized data from various other platforms and manipulates the data for the catalogue format. Memory-efficiency and synchronization were the key part for this app."
+        tagline: "Backend of Catalogue for globally-available
+        e-commerce systems which drive multi-billion dollar
+        annual e-commerce sales. This Node.js application
+        performs the periodic downloads of GB sized data
+        from various vendors and manipulates the data to
+        the catalogue format.<br>
+        <b>* Performed complete app development where memory-efficiency and synchronization were the key parts.<br>
+        * Extended support for multiple regions with single codebase.</b>"
 
       - title: Visho (Side Project)
         link: "#"
