@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Anand Prem
-    tagline: Senior Backend Software Developer
+    tagline: Senior Software Engineer
     avatar:  profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -40,7 +40,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Backend developer by profession and iOS developer by passion.
+      Backend engineer by profession and iOS developer by passion.
       I got chances to take full responsibility of two main platforms
       for globally- available e-commerce systems which drive multi-billion
       dollar annual e-commerce sales. I got the chance to develop and support
@@ -56,7 +56,7 @@ education:
       details: |
 
 experiences:
-    - role: Senior Backend Developer
+    - role: Senior Software Engineer
       time: 2015 - Present
       company: QBurst Technologies, Cochin
       details: |
@@ -72,19 +72,19 @@ projects:
           systems which drive multi-billion dollar annual e-commerce sales.
           This Node.js/TypeScript app handles the wishlist section of users
           from Canada and Japan regions. This platform handles adding, removing
-          and analytics of wishlist data for the users.<br>
-          * Performed complete platform re-architecture with Domain Driven Design, CQRS and Onion architecture concepts.<br>
-          * Performed complete platform re-write to support single codebase for all regions across globe.<br>
-          * Maintenance and support for existing wishlist platform for Japan and Canada regions"
+          and analytics of wishlist data for the users.
+          - Performed complete platform re-architecture with Domain Driven Design, CQRS and Onion architecture concepts.<br>
+          - Performed complete platform re-write to support single codebase for all regions across globe.<br>
+          - Maintenance and support for existing wishlist platform for Japan and Canada regions"
 
       - title: Coupons Platform
         link: "#hook"
         tagline: "Coupons platform for globally-available e-commerce
         systems which drive multi-billion dollar annual
         e-commerce sales. This NodeJS app handles creation,
-        assigning and consumption of coupons.<br>
-        * Performed platform expansion to Europe region with multiple currency support.<br>
-        * Maintenance and support for existing Coupons platform for Japan and Canada regions."
+        assigning and consumption of coupons.
+        - Performed platform expansion to Europe region with multiple currency support.<br>
+        - Maintenance and support for existing Coupons platform for Japan and Canada regions."
 
       - title: Catalogue Platform
         link: "#"
@@ -93,9 +93,9 @@ projects:
         annual e-commerce sales. This Node.js application
         performs the periodic downloads of GB sized data
         from various vendors and manipulates the data to
-        the catalogue format.<br>
-        * Performed complete app development where memory-efficiency and synchronization were the key parts.<br>
-        * Extended support for multiple regions with single codebase."
+        the catalogue format.
+        - Performed complete app development where memory-efficiency and synchronization were the key parts.<br>
+        - Extended support for multiple regions with single codebase."
 
       - title: Visho (Side Project)
         link: "#"
@@ -134,9 +134,6 @@ skills:
 
       - name: Postgresql, Redis, MongoDB, DynamoDB
         level: 80%
-
-      - name: React.js
-        level: 80%
       
       - name: AWS
         level: 80%
@@ -144,11 +141,20 @@ skills:
       - name: Docker, Elastic-Stack
         level: 70%
 
+      - name: React.js
+        level: 80%
+
       - name: Swift
         level: 80%
 
       - name: Go
         level: 50%
+
+      - name: TDD & Git Version Control
+        level: 100%
+
+      - name: DDD, CQRS, Event Sourcing, gRPC
+        level: 80%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
