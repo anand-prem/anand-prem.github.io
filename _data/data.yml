@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -14,9 +14,9 @@ sidebar:
     # Sidebar links
     email: anandprem333@gmail.com
     phone: +91 9400929404
-    website: anandprem333.github.io #do not add http://
-    linkedin: anandprem333
-    github: anandprem333
+    website: anand-prem.github.io #do not add http://
+    linkedin: anand-prem
+    github: anand-prem
     gitlab:
     bitbucket:
     twitter:
@@ -26,7 +26,7 @@ sidebar:
     languages:
       - idiom: English
         level: Professional
-        
+
     interests:
       - item: Travelling
         link:
@@ -56,8 +56,12 @@ education:
       details: |
 
 experiences:
+    - role: Consultant
+      time: 2019 - Present
+      company: ThoughtWorks Technologies, Bangalore
+      details: |
     - role: Senior Software Engineer
-      time: 2015 - Present
+      time: 2015 - 2019
       company: QBurst Technologies, Cochin
       details: |
 
@@ -134,7 +138,7 @@ skills:
 
       - name: Postgresql, Redis, MongoDB, DynamoDB
         level: 80%
-      
+
       - name: AWS
         level: 80%
 
