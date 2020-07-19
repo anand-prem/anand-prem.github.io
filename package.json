@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --mode development --env.development --open --hot --progress",
+    "dev:firefoxdev": "webpack-dev-server --mode development --env.development --open 'firefox developer edition' --hot --progress",
+    "build": "webpack --mode production --env.production --progress",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
   },
   "repository": {
     "type": "git",
@@ -17,7 +21,37 @@
   },
   "homepage": "https://github.com/anand-prem/anand-prem.github.io#readme",
   "dependencies": {
+    "css-loader": "^3.6.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-less": "^2.4.1",
+    "semantic-ui-react": "^1.0.0",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/webpack": "^4.41.21",
+    "@types/webpack-dev-server": "^3.11.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "fork-ts-checker-webpack-plugin": "^5.0.7",
+    "html-webpack-plugin": "^4.3.0",
+    "less-loader": "^6.2.0",
+    "prettier": "2.0.5",
+    "ts-loader": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
