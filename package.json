@@ -8,7 +8,9 @@
     "dev:firefoxdev": "webpack-dev-server --mode development --env.development --open 'firefox developer edition' --hot --progress",
     "build": "webpack --mode production --env.production --progress",
     "lint": "eslint './src/**/*.{ts,tsx}'",
-    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
+    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/anand-prem/anand-prem.github.io/issues"
   },
-  "homepage": "https://github.com/anand-prem/anand-prem.github.io#readme",
+  "homepage": "https://anand-prem.github.io/",
   "dependencies": {
     "css-loader": "^3.6.0",
     "react": "^16.13.1",
@@ -44,6 +46,7 @@
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.8",
     "fork-ts-checker-webpack-plugin": "^5.0.7",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.3.0",
     "less-loader": "^6.2.0",
     "prettier": "2.0.5",
