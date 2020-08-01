@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Biko;
+  src:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/biko-black.woff");
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px;
+}
+header img { width: 100%; }
+svg {
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0; /*needed for FF, Safari, Edge*/
+  height: 100%;
+}
+svg text {
+  font-family: Biko, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 38px;
+}
+svg rect {
+  fill: white;
+}
+svg > rect {
+    -webkit-mask: url(#mask);
+    mask: url(#mask);
+}
+
+.jobDescription {
+  font-family: "Courier New";
+}
+
+.mainCotentGrid {
+  position: relative;
+  left: 30%;
+  top: 10%;
+}
+
+.socialNetworksLinks.socialNetworksLinks.socialNetworksLinks.socialNetworksLinks {
+  background-color: white;
+}
+
+.primaryCard.primaryCard.primaryCard {
+  background-color: rgb(244, 236, 230);
+}
+
+.primaryContentSeparator.primaryContentSeparator.primaryContentSeparator {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+}
+
+.nameLabel.nameLabel.nameLabel.nameLabel {
+  font-size: 2em;
+  font-family: "Arial Black";
+  word-wrap: break-word;
+  width: 150px;
+  background: none;
+  border: none;
+}

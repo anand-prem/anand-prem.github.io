@@ -33,7 +33,16 @@ const webpackConfig = (env): Configuration => ({
       }, {
         test: /\.less/,
         loader: 'less-loader',
-      },
+      }, {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        include: path.join(__dirname, '/public'),
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[path][name].[ext]',
+          },
+        },
+      }
     ],
   },
   plugins: [
