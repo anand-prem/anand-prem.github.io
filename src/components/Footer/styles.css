@@ -3,4 +3,10 @@
   bottom: 0;
   width: 100%;
   border: none !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerMail.footerMail.footerMail.footerMail {
+  margin: 0;
 }

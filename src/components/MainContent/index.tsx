@@ -6,11 +6,11 @@ import './styles.css';
 
 const MainContent: React.FunctionComponent = () => {
   return (
-    <Grid stackable padded className='mainCotentGrid'>
-      <Grid.Column className='mainContentGridColumn' width={4}>
+    <Grid stackable padded className='cotentGrid'>
+      <Grid.Column className='contentGridColumn' width={4}>
         <PrimaryCard />
       </Grid.Column>
-      <Grid.Column className='mainContentGridColumn' width={4}>
+      <Grid.Column className='contentGridColumn' width={4}>
         <DescriptionCard />
       </Grid.Column>
     </Grid>

@@ -2,10 +2,11 @@
   font-family: "Courier New";
 }
 
-.mainCotentGrid {
-  position: relative;
+.cotentGrid.cotentGrid.cotentGrid.cotentGrid.cotentGrid.cotentGrid {
+  position: absolute;
   left: 30%;
   top: 10%;
+  margin-bottom: 30px !important;
 }
 
 .socialNetworksLinks.socialNetworksLinks.socialNetworksLinks.socialNetworksLinks {
@@ -14,13 +15,14 @@
 
 .primaryCard.primaryCard.primaryCard {
   background-color: rgb(244, 236, 230);
+  box-shadow: -11.31px 11.31px 17px 0px rgba(138,131,124,0.23) !important;
 }
 
 .descriptionCard.descriptionCard.descriptionCard {
   box-shadow: none;
 }
 
-.mainContentGridColumn.mainContentGridColumn.mainContentGridColumn.mainContentGridColumn.mainContentGridColumn {
+.contentGridColumn.contentGridColumn.contentGridColumn.contentGridColumn.contentGridColumn {
   padding: 5px;
   width: auto !important;
 }
@@ -50,4 +52,12 @@
   border-top: none;
   font-family: "Courier New";
   font-size: 1.2em;
+}
+
+.experienceSection {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  position: relative !important;
+  left: 30%;
 }

@@ -6,9 +6,7 @@ const DescriptionCard: React.FunctionComponent = () => {
   return (
     <Card centered className='descriptionCard'>
       <Card.Content>
-        <Card.Header basic className='welcomeLabel'>
-          Hello
-        </Card.Header>
+        <Card.Header className='welcomeLabel'>Hello</Card.Header>
         <Card.Description>
           {myData.latestJobTitle} @{' '}
           <a target='_blank' rel='noreferrer' href={myData.presentEmployerWebsite}>

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --env.development --open --hot --progress",
-    "dev:firefoxdev": "webpack-dev-server --mode development --env.development --open 'firefox developer edition' --hot --progress",
+    "dev:chrome": "webpack-dev-server --mode development --env.development --open 'google chrome' --hot --progress",
     "build": "webpack --mode production --env.production --progress",
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
