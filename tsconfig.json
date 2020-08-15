@@ -22,9 +22,13 @@
       "components/*": [
         "src/components/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "types"
+    ]
   },
   "include": [
-    "./src"
+    "./src",
+    "types"
   ]
 }

@@ -1,19 +1,17 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
 import PrimaryCard from './PrimaryCard';
 import DescriptionCard from './DescriptionCard';
-import './styles.css';
 
 const MainContent: React.FunctionComponent = () => {
   return (
-    <Grid stackable padded className='cotentGrid'>
-      <Grid.Column className='contentGridColumn' width={4}>
+    <div className='mainContentGrid'>
+      <div className='primaryGridItem'>
         <PrimaryCard />
-      </Grid.Column>
-      <Grid.Column className='contentGridColumn' width={4}>
+      </div>
+      <div className='descriptionGridItem'>
         <DescriptionCard />
-      </Grid.Column>
-    </Grid>
+      </div>
+    </div>
   );
 };
 

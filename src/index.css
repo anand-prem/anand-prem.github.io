@@ -1,4 +1,195 @@
-#root {
+html {
   height: 100%;
+  min-width: 360px;
+  background: linear-gradient(to right, rgb(230, 218, 206) 40%, white 40%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+#root {
+  flex-grow: 1;
+}
+
+.landingPageMainContent {
+  padding: 8px;
+  position: relative;
+  width: fit-content;
+  left: 30%;
+}
+
+.mainContentGrid {
+  display: grid;
+  gap: 8px;
+}
+
+.primaryGridItem {
+  background-color: rgb(244, 236, 230);
+}
+
+.descriptionGridItem {
+  background-color: white;
+}
+
+/* Mobile */
+@media (max-width: 888px) {
+  .mainContentGrid {
+    grid-template-columns: 340px;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .primaryGridItem {
+    grid-row-start: 1;
+  }
+
+  .descriptionGridItem {
+    grid-row-start: 2;
+  }
+
+  .landingPageMainContent {
+    left: calc(40% - 140px);
+    margin-top: 0;
+  }
+
+  .footer {
+    width: 180px;
+  }
+}
+
+/* Web */
+@media (min-width: 889px) {
+  .mainContentGrid {
+    grid-template-columns: repeat(2, 340px);
+  }
+
+  .primaryGridItem {
+    grid-column-start: 1;
+  }
+
+  .descriptionGridItem {
+    grid-column-start: 2;
+  }
+
+  .landingPageMainContent {
+    left: calc(40% - 170px);
+    margin-top: 10%;
+  }
+
+  .footer {
+    width: fit-content;
+  }
+}
+
+.avatarImg {
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+}
+
+.primaryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: -11.31px 11.31px 17px 0px rgba(138,131,124,0.23);
+  border-radius: 0.3rem;
+}
+
+.nameLabel {
+  font-size: 2em;
+  font-family: "Arial Black";
+  width: 150px;
+  text-align: center;
+  line-height: 1;
+  margin: 8px 0px;
+}
+
+.jobTitleLabel {
+  font-family: "Courier New";
+  line-height: 1;
+}
+
+.primaryContentSeparator {
+  height: 2px;
+  width: 20%;
+  margin: 16px auto;
+  background-color: blue;
+}
+
+.socialNetworksLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% + 20px);
+  height: 50px;
+  margin-top: 16px;
+  margin-bottom: -10px;
+  background-color: white;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.socialNetWorkIcon {
+  width: 1.3em;
+  margin: 3px;
+}
+
+.jobDescription {
+  font-family: "Courier New";
+}
+
+.descriptionCard {
+  padding: 20px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.welcomeLabel {
+  font-size: 4em;
+  font-family: "Arial Black";
+  line-height: 1;
+}
+
+.jobDescriptionWithCompany {
+  color: rgba(0,0,0,.68);
+  margin: 8px 0px;
+}
+
+.companyLink {
+  text-decoration: none;
+}
+
+.companyLinkText {
+  color: deeppink;
+}
+
+.detailedDescription {
+  border-top: none;
+  font-family: "Courier New";
+  font-size: 1.2em;
+}
+
+.experienceSection {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  position: relative !important;
+  left: 30%;
+}
+
+.footer {
+  float: right;
+  margin: 3px 8px;
+  font-family: 'Raleway Dots', cursive;
+}
+
+.footerMail.footerMail.footerMail.footerMail {
+  margin: 0;
 }

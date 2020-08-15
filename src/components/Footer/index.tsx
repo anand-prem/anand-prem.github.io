@@ -1,15 +1,19 @@
 import React from 'react';
-import { Segment, Container, Icon } from 'semantic-ui-react';
-import './styles.css';
 
 const Footer: React.FunctionComponent = () => {
   return (
-    <Segment padded className='footer'>
-      <Container fluid textAlign='right' className='footerMail'>
-        <Icon name='mail' />
-        <div>anandprem333@gmail.com</div>
-      </Container>
-    </Segment>
+    <div className='footer'>
+      <div>
+        Icons made by{' '}
+        <a href='https://www.flaticon.com/authors/freepik' title='Freepik'>
+          Freepik
+        </a>{' '}
+        from{' '}
+        <a href='https://www.flaticon.com/' title='Flaticon'>
+          www.flaticon.com
+        </a>
+      </div>
+    </div>
   );
 };
 

@@ -24,17 +24,28 @@ const webpackConfig = (env): Configuration => ({
           transpileOnly: true,
         },
         exclude: /dist/,
-      }, {
+      },
+      {
         test: /\.css$/i,
-        use: [
-          'style-loader',
-          'css-loader',
-        ],
-      }, {
+        use: ['style-loader', 'css-loader'],
+      },
+      {
         test: /\.less/,
         loader: 'less-loader',
-      }, {
-        test: /\.(jpe?g|png|gif|svg)$/i,
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg|pdf)$/i,
         include: path.join(__dirname, '/public'),
         use: {
           loader: 'file-loader',
@@ -42,12 +53,13 @@ const webpackConfig = (env): Configuration => ({
             name: '[path][name].[ext]',
           },
         },
-      }
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+      favicon: './public/favicon.svg',
     }),
     new webpack.DefinePlugin({
       'process.env.PRODUCTION': env.production || !env.development,
