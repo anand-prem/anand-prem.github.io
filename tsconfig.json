@@ -25,7 +25,8 @@
     },
     "typeRoots": [
       "types"
-    ]
+    ],
+    "types": ["node"]
   },
   "include": [
     "./src",
