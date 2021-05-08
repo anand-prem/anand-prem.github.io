@@ -1,3 +1,8 @@
+import { DateTime } from 'luxon';
+import { getYearOfExperience } from '../utils/time';
+
+const carrierBeginningDateTime = DateTime.local(2015, 7, 6);
+
 const myData = {
   name: 'Anand Prem',
   jobTitle: 'Consultant Developer',
@@ -11,8 +16,9 @@ const myData = {
     linkedin: 'https://www.linkedin.com/in/anand-prem/',
     github: 'https://github.com/anand-prem',
   },
-  personalDescription:
-    "Full-stack developer with five+ years of experience in e-commerce domain. I have worked with Japan's largest retail clothing MNC for 4 years and now working with one of the largest supermarket chain in US for more than 1 year.",
+  personalDescription: `Full-stack developer with ${getYearOfExperience(
+    carrierBeginningDateTime
+  )} years of experience in e-commerce domain. I have worked with Japan's largest retail clothing MNC for 4 years and now working with one of the largest supermarket chain in US for more than 1 year.`,
   experience: [
     {
       employer: 'QBurst',

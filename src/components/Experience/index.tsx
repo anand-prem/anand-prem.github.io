@@ -6,7 +6,7 @@ import myData from '../../models/myData';
 
 const Experience: React.FunctionComponent = () => {
   const experiences = (myData.experience as unknown) as IExperience[];
-  const renderExperience = experiences.map((experience, index: number) => (
+  const renderExperience = experiences.map((experience) => (
     <>
       <TimeAndPlaceDetails experience={experience} />
       <CompanyAndDesigation experience={experience} />

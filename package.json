@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "dev": "webpack-dev-server --mode development --env.development --open --hot --progress --host 0.0.0.0",
     "dev:chrome": "webpack-dev-server --mode development --env.development --open 'google chrome' --hot --progress --host 0.0.0.0",
     "build": "webpack --mode production --env.production --progress",
@@ -24,6 +25,7 @@
   "homepage": "https://anand-prem.github.io/",
   "dependencies": {
     "css-loader": "^3.6.0",
+    "luxon": "^1.26.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "style-loader": "^1.2.1"
