@@ -18,7 +18,7 @@ const myData = {
   },
   personalDescription: `Full-stack developer with ${getYearOfExperience(
     carrierBeginningDateTime
-  )} years of experience in e-commerce domain. I have worked with Japan's largest retail clothing MNC for 4 years and now working with one of the largest supermarket chain in US for more than 1 year.`,
+  )}+ years of experience in e-commerce domain. I have worked with Japan's largest retail clothing MNC for 4 years and now working with one of the largest supermarket chain in US for more than 1 year.`,
   experience: [
     {
       employer: 'QBurst',

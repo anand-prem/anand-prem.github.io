@@ -10,8 +10,7 @@
     "build": "webpack --mode production --env.production --progress",
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && cp dist/build.js . && echo Bundle updated. Push the code to master branch with person who has admin privilege"
   },
   "repository": {
     "type": "git",
